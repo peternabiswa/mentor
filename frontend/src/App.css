@@ -1,0 +1,74 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://fonts.google.com/specimen/Fraunces);
+
+.container {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.card {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  max-height: fit-content;
+}
+.pic {
+  flex: 1;
+}
+.description {
+  background-color: hsl(0, 0%, 100%);
+}
+
+p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+h2 {
+  font-family: Fraunces;
+  font-weight: 300;
+}
+h1 {
+  font-family: Fraunces;
+  font-weight: 700;
+}
+
+.checkoutButton {
+  background-color: hsl(158, 36%, 37%);
+  border: 1px;
+  border-radius: 3px;
+}
+.checkoutButton:hover {
+  background-color: #4c51af; /* Green */
+  color: white;
+}
+span {
+  color: hsl(0, 0%, 100%);
+  padding-right: 35px;
+}
+
+strong {
+  color: hsl(158, 36%, 37%);
+  font-family: Montserrat;
+  font-weight: bolder;
+  font-size: x-large;
+}
+small {
+  text-decoration: line-through;
+  vertical-align: text-top;
+}
+
+/* mobile first responsive design */
+.mobile {
+  display: none;
+}
+@media (min-width: 375px) {
+  .mobile {
+    display: block;
+    flex-direction: column;
+  }
+}
