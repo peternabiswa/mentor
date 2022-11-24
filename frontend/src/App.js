@@ -30,7 +30,7 @@ function App() {
           <br></br>
 
           <button className="checkoutButton">
-            <IconButton width="4rem" />
+            <IconButton width="1rem" />
             <span>Add to Cart</span>
           </button>
         </div>
